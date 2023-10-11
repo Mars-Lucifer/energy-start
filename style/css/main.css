@@ -8,8 +8,8 @@ body, html {
 }
 
 .logo {
-    width: 100%;
     padding: 6%;
+    max-width: 100%;
 }
 
 .link-button img {
@@ -20,6 +20,17 @@ body, html {
     animation: arrow;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        height: 26vh;
+        padding: 2%;
+    }
+
+    html {
+        font-size: calc( var(--index) * 10 )
+    }
 }
 
 @keyframes arrow {

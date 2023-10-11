@@ -16,9 +16,22 @@ body {
     color: white;
 }
 
+.title-2 {
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+}
+
 .text-1 {
     text-align: center;
     font-size: 1.6rem;
+    color: white;
+    margin-bottom: 6%;
+}
+
+.text-2 {
+    text-align: center;
+    font-size: 1.2rem;
     color: white;
     margin-bottom: 6%;
 }

@@ -5,6 +5,18 @@
     background-position: center;
 }
 
+.block-2 {
+    background-color: #f5914f;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.block-3 {
+    background-color: #615b57;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
 .block-header {
     height: auto;
     background-color: black;
@@ -18,10 +30,12 @@
 .header-block-mini {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 3vh;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
     .header-block-mini {
+        align-items: center;
         flex-direction: column;
     }
 }
