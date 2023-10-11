@@ -1,0 +1,27 @@
+.block-1 {
+    min-height: 90vh;
+    background-image: url("../img/bac.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.block-header {
+    height: auto;
+    background-color: black;
+    color: #f5914f;
+}
+.block-header .row {
+    min-height: 10vh;
+    align-items: center;
+}
+
+.header-block-mini {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 425px) {
+    .header-block-mini {
+        flex-direction: column;
+    }
+}
