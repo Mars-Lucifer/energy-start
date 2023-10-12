@@ -31,7 +31,38 @@ body {
 
 .text-2 {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: white;
     margin-bottom: 6%;
+}
+
+.number {
+    text-align: center;
+    font-size: 10rem;
+    color: #f5914f;
+}
+
+.block-3_content p {
+    margin: 0;
+}
+
+.block-3_content .title-1 {
+    font-size: 5rem;
+    width: 65%;
+}
+
+.block-3_content .title-2 {
+    font-size: 2.4rem;
+    width: 65%;
+    color: #f5914f;
+}
+
+.block-3_content .text-2 {
+    font-size: 1.6rem;
+    text-align: left;
+    width: 65%;
+}
+
+.block-3_content ul {
+    margin: 2vh;
 }

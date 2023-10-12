@@ -8,6 +8,10 @@
     border-bottom: 1px solid #f5914f;
 }
 
+.link-button {
+    color: #000;
+}
+
 .button {
     display: flex;
     justify-content: center;

@@ -33,6 +33,14 @@
     margin-bottom: 3vh;
 }
 
+.block-3_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 8vh;
+}
+
 @media (max-width: 768px) {
     .header-block-mini {
         align-items: center;
