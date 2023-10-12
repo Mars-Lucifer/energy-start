@@ -23,7 +23,7 @@ body, html {
 }
 
 .img {
-    max-width: 46%;
+    object-fit: contain;
 }
 
 @media (max-width: 768px) {
