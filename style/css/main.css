@@ -22,6 +22,10 @@ body, html {
     animation-iteration-count: infinite;
 }
 
+.img {
+    max-width: 46%;
+}
+
 @media (max-width: 768px) {
     .logo {
         height: 26vh;
