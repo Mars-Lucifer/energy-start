@@ -16,6 +16,10 @@
     margin-bottom: 8.3vh;
 }
 
+.margin-2 {
+    margin-bottom: 2.7vh;
+}
+
 /* Header */
 .header_block {
     display: flex;
@@ -77,4 +81,9 @@
     align-items: center;
     justify-content: center;
     gap: 4.1vh;
+}
+
+/* 3 экран */
+.fci-logo {
+    width: 100%;
 }

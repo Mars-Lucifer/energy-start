@@ -19,3 +19,7 @@
     border: none;
     transition-duration: 150ms;
 }
+
+.icon {
+    height: calc(var(--index) * 18);
+}
