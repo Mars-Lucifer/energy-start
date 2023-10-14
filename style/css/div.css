@@ -1,10 +1,19 @@
-/* Первый экран */
+/* Экраны */
 .block-1 {
     height: 100vh;
     background: linear-gradient(
         to top,
         rgb(0 0 0 / .6), rgb(0 0 0 / 0)
     ), url("../img/bac-1.jpg")
+}
+
+.block-2 {
+    padding: 11.1vh 0;
+}
+
+/* Отступы */
+.margin-1 {
+    margin-bottom: 8.3vh;
 }
 
 /* Header */
@@ -59,4 +68,13 @@
     justify-content: flex-end;
     min-height: 10vh;
     border-bottom: 0.13vh solid #fff;
+}
+
+/* 2 экран */
+.block-2_block-mini {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4.1vh;
 }

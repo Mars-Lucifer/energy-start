@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
 /* Установка шрифта */
 body, html {
@@ -9,7 +9,7 @@ body, html {
 
 .title-1 {
     font-size: calc(var(--index) * 30);
-    font-weight: 600;
+    font-weight: 700;
     color: #fff;
     text-align: center;
     margin: 0;
@@ -21,4 +21,13 @@ body, html {
     color: #fff;
     text-align: center;
     margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7vw;
+}
+
+.block-2 p {
+    color: #000;
 }
