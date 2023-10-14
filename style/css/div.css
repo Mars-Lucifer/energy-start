@@ -115,3 +115,11 @@
 .margin-0 {
     margin: 0;
 }
+
+/* Прочее */
+.block-mini {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
