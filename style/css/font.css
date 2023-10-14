@@ -28,6 +28,28 @@ body, html {
     gap: 0.7vw;
 }
 
+.text-2 {
+    font-size: calc(var(--index) * 10);
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
 .block-2 p {
+    color: #000;
+}
+
+.block-3 p {
+    color: #fff;
+}
+
+.left {
+    text-align: left;
+}
+
+.black {color: #000;}
+
+.black p, input {
     color: #000;
 }

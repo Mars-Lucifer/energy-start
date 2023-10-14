@@ -23,3 +23,21 @@
 .icon {
     height: calc(var(--index) * 18);
 }
+
+.black a {color: #000;}
+
+.input {
+    min-height: 7.2vh;
+    width: 100%;
+    border-radius: 0.5vh;
+    border: 0.1vh solid #000;
+    margin-bottom: 4.1vh;
+}
+
+.button {
+    padding: 1.8vh 2.4vw;
+    border-radius: 0.5vh;
+    color: #fff;
+    border: none;
+    background-color: #000;
+}

@@ -6,31 +6,31 @@
     <title>Energy Start</title>
 
     <!-- Подключение Bootstrap-grid и стилей -->
+    <link rel="stylesheet" href="./style/css/font.css">
     <link rel="stylesheet" href="./style/css/but_link.css">
     <link rel="stylesheet" href="./style/css/div.css">
-    <link rel="stylesheet" href="./style/css/font.css">
     <link rel="stylesheet" href="./style/css/main.css">
     <link rel="stylesheet" href="./style/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="./style/css/bootstrap.min.css">
 
 </head>
 <body>
-    <div class="block-1 container-fluid">
+    <div class="block-1 container-fluid" id="services">
         <div class="row header">
             <div class="col-md-12">
                 <div class="header_block">
-                    <a href="" class="logo">ЭнерджиСтарт</a>
+                    <a href="./" class="logo">ЭнерджиСтарт</a>
                     <div class="header_block-mini">
                         <div class="dropdown">
                             <button class="link-1">О компании <img src="./style/img/arrow-1.svg" alt="arrow" class="arrow-1"></button>
                             <div class="dropdown-block">
-                                <a href="" class="link-1">Проекты и решения</a>
-                                <a href="" class="link-1">История развития</a>
-                                <a href="" class="link-1">Наши партнеры</a>
+                                <a href="#services" class="link-1">Проекты и решения</a>
+                                <a href="#history" class="link-1">История развития</a>
+                                <a href="#partners" class="link-1">Наши партнеры</a>
                             </div>
                         </div>
-                        <a class="link-1" href="">Контакты</a>
-                        <a class="link-1" href="">Обратная связь</a>
+                        <a class="link-1" href="#contact">Контакты</a>
+                        <a class="link-1" href="/feedback.html">Обратная связь</a>
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@
         </div>
     </div>
 
-    <div class="block-2 container-fluid">
+    <div class="block-2 container-fluid" id="history">
         <div class="row margin-1">
             <div class="col-md-3"></div>
             <div class="col-md-6 margin-2">
@@ -94,7 +94,7 @@
         </div>
     </div>
 
-    <div class="block-2 container-fluid">
+    <div class="block-2 container-fluid" id="partners">
         <div class="row margin-1">
             <div class="col-md-3"></div>
             <div class="col-md-6 margin-2">
@@ -115,6 +115,28 @@
                 </a>
             </div>
             <div class="col-md-5 col-4"></div>
+        </div>
+    </div>
+
+    <div class="block-2 block-3 container-fluid" id="contact">
+        <div class="row margin-1">
+            <div class="col-md-3 col-2"></div>
+            <div class="col-md-3 col-4">
+                <img src="./style/img/photo.jpg" alt="photo" class="photo">
+            </div>
+            <div class="col-md-3 col-4">
+                <p class="title-1 left margin-2">Контакты</p>
+                <p class="text-1 left">Ген. директор: Малышева Альвина Дмитриевна<br><br>e-mail: kuznetsova.alvina@yandex.ru<br><br>тел.: +7 (906) 605-75-59</p>
+            </div>
+            <div class="col-md-3 col-2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <p class="title-1 margin-2">Информация</p>
+                <p class="text-1">Общество с ограниченной ответственностью «Конст»<br>(ООО «Конст»)<br>Юр. адрес организации:<br>308029, г. Белгород, ул. Почтовая, д. 60 , кв. 72<br>ИНН: 3100005992</p>
+            </div>
         </div>
     </div>
 </body>
