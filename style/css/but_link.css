@@ -27,7 +27,7 @@
 .black a {color: #000;}
 
 .input {
-    min-height: 7.2vh;
+    min-height: calc(var(--index) * 28);
     width: 100%;
     border-radius: 0.5vh;
     border: 0.1vh solid #000;

@@ -1,10 +1,8 @@
 /* Экраны */
 .block-1 {
     height: 100vh;
-    background: linear-gradient(
-        to top,
-        rgb(0 0 0 / .6), rgb(0 0 0 / 0)
-    ), url("../img/bac-1.jpg")
+    background: linear-gradient(to top,rgb(0 0 0 / .6), rgb(0 0 0 / 0)),
+    url("../img/bac-1.jpg")
 }
 
 .block-2 {
