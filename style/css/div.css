@@ -1,56 +1,62 @@
+/* Первый экран */
 .block-1 {
-    min-height: 90vh;
-    background-image: url("../img/bac.jpg");
-    background-size: cover;
-    background-position: center;
+    height: 100vh;
+    background: linear-gradient(
+        to top,
+        rgb(0 0 0 / .6), rgb(0 0 0 / 0)
+    ), url("../img/bac-1.jpg")
 }
 
-.block-2 {
-    background-color: #f5914f;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-}
-
-.block-3 {
-    background-color: #615b57;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-}
-
-.block-header {
-    height: auto;
-    background-color: black;
-    color: #f5914f;
-}
-.block-header .row {
-    min-height: 10vh;
-    align-items: center;
-}
-
-.header-block-mini {
+/* Header */
+.header_block {
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: space-between;
+    padding: 1.3vh 0;
+    border-bottom: 0.1vh solid #fff;
+    margin-bottom: 60vh;
 }
 
-.block-3_content {
+.header_block-mini {
     display: flex;
-    justify-content: center;
     align-items: center;
+    gap: 4.2vw;
+}
+
+/* Меню */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-block {
+    display: none;
+    position: absolute;
+    background-color: #0000001c;
+    backdrop-filter: blur(10px);
+    border: 0.1vh solid #fff;
+    width: max-content;
+    padding: 1vh 1vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 0.5vh;
+}
+
+.dropdown-block .link-1 {
+    display: block;
+    margin-bottom: 1vh;
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-block {display: block;}
+
+.dropdown:hover .link-1 .arrow-1 {transform: rotateY('90deg');}
+
+/* Блок снизу у 1 экрана */
+.bottom-block {
+    display: flex;
     flex-direction: column;
-    margin-top: 8vh;
-}
-
-.block-4-mini {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-@media (max-width: 768px) {
-    .header-block-mini {
-        align-items: center;
-        flex-direction: column;
-        margin-bottom: 3.6vh;
-    }
+    justify-content: flex-end;
+    min-height: 10vh;
+    border-bottom: 0.13vh solid #fff;
 }

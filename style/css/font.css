@@ -1,68 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
 
 /* Установка шрифта */
-body {
-    font-family: 'Roboto', sans-serif;
+body, html {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: calc( var(--index) * 7 );
 }
-
-/* Ширина для текста */
-.weight-link {font-weight: 500; text-decoration: none;}
-.weight-text {font-weight: 300}
-.weight-title {font-weight: 600}
 
 .title-1 {
+    font-size: calc(var(--index) * 30);
+    font-weight: 600;
+    color: #fff;
     text-align: center;
-    font-size: 6rem;
-    color: white;
-}
-
-.title-2 {
-    text-align: center;
-    font-size: 4rem;
-    color: white;
-}
-
-.text-1 {
-    text-align: center;
-    font-size: 1.6rem;
-    color: white;
-    margin-bottom: 6%;
-}
-
-.text-2 {
-    text-align: center;
-    font-size: 1.4rem;
-    color: white;
-    margin-bottom: 6%;
-}
-
-.number {
-    text-align: center;
-    font-size: 10rem;
-    color: #f5914f;
-}
-
-.block-3_content p {
     margin: 0;
 }
 
-.block-3_content .title-1 {
-    font-size: 3.8rem;
-    width: 65%;
-}
-
-.block-3_content .title-2 {
-    font-size: 2.4rem;
-    width: 65%;
-    color: #f5914f;
-}
-
-.block-3_content .text-2 {
-    font-size: 1.6rem;
-    text-align: left;
-    width: 65%;
-}
-
-.block-3_content ul {
-    margin: 2vh;
+.text-1 {
+    font-size: calc(var(--index) * 14);
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    margin: 0;
 }

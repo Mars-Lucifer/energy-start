@@ -1,53 +1,7 @@
 body, html {
-    background-color: #615b57;
-    font-size: calc( var(--index) * 7 )
+    background-color: #fff;
 }
 
 :root {
     --index: calc( ((1vw + 1vh) *3.31) / 50 );
-}
-
-.logo {
-    padding: 6%;
-    max-width: 100%;
-}
-
-.link-button img {
-    height: calc( var(--index) * 32 );
-}
-
-.arrow {
-    animation: arrow;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-
-.img {
-    object-fit: contain;
-}
-
-@media (max-width: 768px) {
-    .logo {
-        height: 26vh;
-        padding: 2%;
-    }
-
-    html {
-        font-size: calc( var(--index) * 10 )
-    }
-}
-
-@keyframes arrow {
-    0% {
-        transform: translateY(0px);
-    }
-    25% {
-        transform: translateY(10px);
-    }
-    0% {
-        transform: translateY(-10px);
-    }
-    0% {
-        transform: translateY(0px);
-    }
 }

@@ -13,188 +13,53 @@
     <link rel="stylesheet" href="./style/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="./style/css/bootstrap.min.css">
 
-    <!-- Подключение иконок -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
-    <div class="block-header container-fluid">
-        <div class="row">
-            <div class="col-md-2 col-xs-12 order-md-2">
-                <div class="header-block-mini">
-                    <img src="./style/img/logo.png" alt="logo" class="logo"/>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-5 order-md-1">
-                <div class="header-block-mini">
-                    <a href="#about" class="link weight-link">О продукте</a> 
-                    <a href="#advantages" class="link weight-link">Преимущества</a> 
-                    <a href="#contact" class="link weight-link">Контакты</a> 
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-5 order-md-3">
-                <div class="header-block-mini">
-                    <div>
-                        <a href="" class="link-button">
-                            <img src="./style/img/telegram.svg" alt="Telegram">
-                        </a>
-                        <a href="" class="link-button">
-                            <img src="./style/img/mail.svg" alt="Mail">
-                        </a>
+    <div class="block-1 container-fluid">
+        <div class="row header">
+            <div class="col-md-12">
+                <div class="header_block">
+                    <a href="" class="logo">ЭнерджиСтарт</a>
+                    <div class="header_block-mini">
+                        <div class="dropdown">
+                            <button class="link-1">О компании <img src="./style/img/arrow-1.svg" alt="arrow" class="arrow-1"></button>
+                            <div class="dropdown-block">
+                                <a href="" class="link-1">Проекты и решения</a>
+                                <a href="" class="link-1">История развития</a>
+                                <a href="" class="link-1">Наши партнеры</a>
+                            </div>
+                        </div>
+                        <a class="link-1" href="">Контакты</a>
+                        <a class="link-1" href="">Обратная связь</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="block-1 container-fluid">
-        <div class="row">
-            <div class="col-md-2 d-xs-none"></div>
-            <div class="col-md-8 col-xs-12">
-                <p class="title-1 weight-title">Название продукта</p>
-            </div>
-            <div class="col-md-2 d-xs-none"></div>
-
-            <div class="col-md-3 d-xs-none"></div>
-            <div class="col-md-6 col-sm-12">
-                <p class="text-1 weight-text">Система управления накопителями электроэнергии.<br>В настоящее время потери электроэнергии во Всероссийском масштабе составляют 10%. Наша цель - снизить потери путем внедрения нашего решения сначала в ЦФО, а затем и по всей России.</p>
-            </div>
-            <div class="col-md-3 d-xs-none"></div>
-
-            <div class="col-md-5 col-xs-4"></div>
-            <div class="col-md-2 col-xs-4">
-                <div style="display: flex; flex-direction: column; gap: 5vh; align-items: center;">
-                    <a href="#contact" class="link button weight-link">Приобрести</a>
-                    <svg role="presentation" class="arrow" style="fill:#f5914f;" x="0px" y="0px" width="4vw" height="" viewBox="0 0 38.417 18.592"><g><path d="M19.208,18.592c-0.241,0-0.483-0.087-0.673-0.261L0.327,1.74c-0.408-0.372-0.438-1.004-0.066-1.413c0.372-0.409,1.004-0.439,1.413-0.066L19.208,16.24L36.743,0.261c0.411-0.372,1.042-0.342,1.413,0.066c0.372,0.408,0.343,1.041-0.065,1.413L19.881,18.332C19.691,18.505,19.449,18.592,19.208,18.592z"></path></g></svg>
-                </div>
-            </div>
-            <div class="col-md-5 col-xs-4"></div>
-        </div>
-    </div>
-
-    <div class="block-2 container-fluid" id="about">
-        <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
-                <p class="title-2 weight-title">ЭНЕРДЖИСТАРТ</p>
-                <p class="text-2 weight-text" style="margin: 0;">Программный продукт предназначен для расчета режимов работы сети с учетом управляемых накопителей электрической энергии с целью повышения энергоэффективности системы электроснабжения.<br/>Чтобы увеличить потребление активной мощности мы предлагаем нашу систему управления "ЭнерджиСтарт". Li-Ion накопителем на базе алгоритмов нечеткой логики.</p>
-            </div>
-            <div class="col-md-3"></div>
-        </div>
-    </div>
-
-    <div class="block-3 container-fluid" id="advantages">
-        <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
-                <p class="title-2 weight-title">Почему выбирают "ЭнерджиСтарт"?</p>
-                <p class="text-2 weight-text" style="margin: 0;">Преимущество нашего продукта среди других систем управления электроэнергией представленных на рынке:</p>
-            </div>
-            <div class="col-md-3"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4">
-                <div class="block-3_content">
-                    <p class="number weight-title">1</p>
-                    <p class="title-1 weight-title">Интерфейс</p>
-                    <p class="title-2 weight-title">Табличный либо графический вод данных</p>
-                    <p class="text-2 weight-text">Ввод данных пользователем:
-                        <ul class="text-2 weight-text">
-                        <li>кол-во ветвей</li>
-                        <li>кол-во узлов</li>
-                        <li>параметры кабельных линий</li>
-                        <li>параметры трансформаторов</li>
-                        <li>параметры мощности нагрузок</li>
-                        </ul><p class="text-2 weight-text">+ программа получает данные графиков нагрузок, которые передаются в режиме реального времени с приборов регистрации.</p>
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="block-3_content">
-                    <p class="number weight-title">2</p>
-                    <p class="title-1 weight-title">Расчет</p>
-                    <p class="title-2 weight-title">Рекомендуемое место подключения накопителя</p>
-                    <p class="text-2 weight-text">Программное обеспечение позволит получить рекомендуемую мощность и место подключения
-
-                        накопителя с системой управления, за счет которой осуществляется контроль состояния заряда накопителя.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="block-3_content">
-                    <p class="number weight-title">3</p>
-                    <p class="title-1 weight-title">Итог</p>
-                    <p class="title-2 weight-title">В конце</p>
-                    <p class="text-2 weight-text">Как результат - вы получите оптимальную структуру энергосистемы.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="block-2 container-fluid">
-        <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
-                <p class="title-2 weight-title">Создано при поддержке</p>
-                <p class="text-2 weight-text">
-                    Система управления накопителями электрической энергии "ЭнерджиСтарт" разработана при поддержке:<br><br>
-                    Федеральным государственным бюджетным учреждением «Фонд содействия развитию малых форм предприятий в научно-технической сфере» в рамках Федерального проекта «Платформа университетского технологического предпринимательства».
-                </p>
-            </div>
-            <div class="col-md-3"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
-                <div class="block-4-mini">
-                    <a href="https://fasie.ru/" class="link-img">
-                        <img class="logo img" src="./style/img/img-1.jpg" alt="Фонд Содействия Инновациям">
-                    </a>
-                    <a href="https://univertechpred.ru/" class="link-img">
-                        <img src="./style/img/img-2.jpeg" alt="Платформа Университетского Технологического Предпренимательства" class="logo img">
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4"></div>
-        </div>
-    </div>
-
-    <div class="block-3 container-fluid" id="contact">
-        <div class="row">
+        <div class="row block-1_bottom">
             <div class="col-md-12">
-                <p class="title-2 weight-title" style="color: #f5914f;">Контакты</p>
+                <p class="title-1">Услуги и решения</p>
             </div>
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
-                <p class="text-2 weight-text">
-                    Общество с ограниченной ответственностью «Конст»
-                    <br>(ООО «Конст»)
-                    <br>Юридический адрес организации:
-                    <br>308029, г. Белгород, ул. Почтовая, д. 60 , кв. 72
-                    <br>ИНН: 3100005992
-                    <br>ОГРН: 1223100011397
-                    <br>КПП: 310001001
-                    <br>тел.: +7 (906) 605-75-59
-                    <br>Генеральный директор: Кузнецова Альвина Дмитриевна
-                    <br>Электронная почта
-                    <br>kuznetsova.alvina@yandex.ru
-                </p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
-                <div class="block-4-mini">
-                    <a href="https://fasie.ru/" class="link-img">
-                        <img class="logo img" src="./style/img/img-1.jpg" alt="Фонд Содействия Инновациям">
-                    </a>
-                    <a href="" class="link-img">
-                        <img src="./style/img/telegram.svg" alt="Telegram" class="logo img" style="width: 100%;">
-                    </a>
+            <div class="col-md-3 col-6">
+                <div class="bottom-block">
+                    <p class="text-1">Разработка решений для повышения энергоэффективности</p>
                 </div>
             </div>
-            <div class="col-md-4"></div>
+            <div class="col-md-3 col-6">
+                <div class="bottom-block">
+                    <p class="text-1">Распределительные сети на территории РФ</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="bottom-block">
+                    <p class="text-1">Локальные распределительные сети</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="bottom-block">
+                    <p class="text-1">Системы жизнеобеспечения здания</p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
