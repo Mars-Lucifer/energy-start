@@ -95,6 +95,7 @@ footer {
     padding: 20px 24px;
     border-radius: 8px;
     background-color: #F8F8F8;
+    text-decoration: none;
 }
 .block-gray * {
     color: black;
