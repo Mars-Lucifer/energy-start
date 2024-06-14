@@ -82,6 +82,9 @@ footer {
     min-height: 10vh;
     border-bottom: 0.13vh solid #fff;
 }
+.bottom-block p {
+    font-size: calc(var(--index) * 12);
+}
 
 /* 2 экран */
 .block-gray {
