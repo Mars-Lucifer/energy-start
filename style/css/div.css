@@ -2,7 +2,9 @@
 .block-1 {
     height: 100vh;
     background: linear-gradient(to top,rgb(0 0 0 / .6), rgb(0 0 0 / 0)),
-    url("../img/bac-1.jpg")
+    url("../img/bac-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .block-1_bottom {
@@ -118,15 +120,8 @@ footer {
     width: 100%;
 }
 
-/* 3 экран */
-.fci-logo {
+.img-pac {
     width: 100%;
-}
-
-/* Footer */
-.photo {
-    width: 100%;
-    border-radius: 0.5vh;
 }
 
 /* Feedback */
@@ -145,4 +140,14 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 1vw;
+}
+
+
+@media (max-width: 768px) {
+    .margin-2_adaptive {
+        margin-bottom: 2.7vh;
+    }
+    .margin-1 {
+        margin-bottom: 3vh;
+    }
 }
