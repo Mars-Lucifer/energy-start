@@ -52,3 +52,7 @@ p, li {
 .black p, input {
     color: #000;
 }
+
+b {
+    font-weight: 500;
+}

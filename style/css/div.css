@@ -102,6 +102,7 @@ footer {
     text-align: left;
 }
 .block-gray_border {
+    height: 100%;
     background: none;
     border: 1px solid #0000004D;
 }
@@ -146,12 +147,66 @@ footer {
     gap: 1vw;
 }
 
+.block-download {
+    width: 100%;
+    display: flex;
+    align-items: center; /* Центрирование по вертикали */
+    text-decoration: none;
+    gap: 20px;
+}
 
+.download {
+    min-height: 64px;
+    background-color: #F5F5F5;
+    border-radius: 4px;
+    padding: 20px 38px;
+    display: flex;
+    align-items: center; /* Выравнивание по вертикали */
+    flex: 1;
+}
+
+.block-download .download:last-child {
+    width: 100%;
+}
+
+.block-download .download:first-child {
+    flex: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    flex-basis: content;
+    align-self: stretch; /* Расширение элемента до высоты родителя */
+    aspect-ratio: 1;
+}
+
+
+.block-4 {
+    margin-bottom: -160px;
+}
+
+@media (min-width: 1600px) {
+    .download {
+        padding: 22px 40px;
+        min-height: 120px;
+    }
+    .download img {
+        height: 64px;
+    }
+}
 @media (max-width: 768px) {
     .margin-2_adaptive {
         margin-bottom: 2.7vh;
     }
     .margin-1 {
         margin-bottom: 3vh;
+    }
+
+    .download {
+        padding: 16px 20px;
+        min-height: 50px;
+    }
+    .download img {
+        height: 26px;
     }
 }

@@ -12,7 +12,7 @@
     gap: 0.3vw;
 
     font-size: calc(var(--index) * 12);
-    font-weight: 500;
+    font-weight: 600;
     color: #fff;
 
     background: none;
@@ -40,4 +40,6 @@
     color: #fff;
     border: none;
     background-color: #000;
+    display: flex;
+    justify-content: center;
 }
