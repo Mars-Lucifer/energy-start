@@ -1,14 +1,17 @@
 /* Экраны */
 .block-1 {
     height: 100vh;
-    background: linear-gradient(to top,rgb(0 0 0 / .6), rgb(0 0 0 / 0)),
-    url("../img/bac-1.jpg");
+    background-image: url("../img/bac1.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .block-1_bottom {
     align-items: flex-end;
+}
+.block-1_bottom a {
+    text-decoration: none;
 }
 
 footer {
@@ -185,6 +188,18 @@ footer {
     margin-bottom: -160px;
 }
 
+.bg_big {
+    padding: 26px 32px;
+    gap: 30px;
+    border-radius: 14px;
+}
+
+.bg_void {
+    padding: 0;
+    border-radius: 0;
+    background: none;
+}
+
 @media (min-width: 1600px) {
     .download {
         padding: 22px 40px;
@@ -208,5 +223,8 @@ footer {
     }
     .download img {
         height: 26px;
+    }
+    .block-img {
+        gap: 8px;
     }
 }

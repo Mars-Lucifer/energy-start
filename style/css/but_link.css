@@ -1,8 +1,8 @@
 .logo {
-    font-size: calc(var(--index) * 20);
-    font-weight: 600;
-    text-decoration: none;
-    color: #fff;
+    height: 50px;
+}
+.logo img {
+    height: 100%;
 }
 
 .link-1 {
@@ -42,4 +42,16 @@
     background-color: #000;
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        height: 32px;
+    }
+}
+
+@media (max-width: 425px) {
+    .logo {
+        height: 26px;
+    }
 }

@@ -54,5 +54,30 @@ p, li {
 }
 
 b {
-    font-weight: 500;
+    font-weight: 700;
+}
+
+.yellow {
+    color: #FA7223;
+}
+
+.red {
+    color: #F03C18;
+}
+
+ul {
+    padding-left: 4px;
+}
+
+ul li {
+    list-style-position: inside; /* Оставляет маркер внутри списка */
+}
+
+ul li::marker {
+    font-size: 8px; /* Уменьшает размер маркера */
+}
+
+
+p {
+    margin-bottom: 10px; /* Расстояние между абзацами */
 }
